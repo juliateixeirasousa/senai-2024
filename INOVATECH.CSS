@@ -308,6 +308,8 @@ ul{
 .caixaform{
     width: 500px;
     height: 30px;
+    padding: 12px;
+    border:none;
 }
 .rodape {
     display: flex;
