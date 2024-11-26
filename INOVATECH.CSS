@@ -118,6 +118,10 @@ section {
     transition: 0.3s;
 }
 
+select {
+border-radius: 8px
+}
+
 footer {
     background-color: #024033;
     height: 360px;
