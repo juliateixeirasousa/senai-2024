@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+nav {
+    background-color: #024033;
+    width: 100%;
+    height: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+nav ul li.logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+
+section {
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.div-texto-inicial {
+    padding: 80px;
+    width: 840px;
+}
+
+.div-texto-inicial h1 {
+    font-size: 56px;
+    font-weight: 300;
+    padding-bottom: 64px;
+    line-height: 120%;
+}
+
+.div-texto-inicial span {
+    color: #89cd1d;
+    font-weight: bold;
+}
+
+
+#Principal {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ComoAtuamos {
+    background-color: #ffd353;
+    height: 1710px;
+    color: #024033;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+#NossosPlanos {
+    background-color: #ffd353;
+    height: 1370px;
+    color: #024033;
+    background-image: url(maquina\-planos.png);
+    background-repeat: no-repeat;
+    
+}
+
+#Contato {
+    background-color: #ffffff;
+    height: 1200px;
+    color: #024033;
+    background-image: url(drone-contato.png);
+    background-position-y: 300px;
+    background-position-x: 60px;
+    background-size: 800px;
+    background-repeat: no-repeat;
+}
+
+.botao-principal {
+    background-color: #ffd353;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 24px;
+    color: #024033;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+}
+
+.botao-principal:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #024033;
+    height: 360px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.topicos {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.caixa {
+    width: 405px;
+    padding: 48px;
+    height: 500px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 8px rgba(50, 50, 50, 0.071);
+}
+
+.caixa h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 0px;
+}
+
+.caixa p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.atuacao {
+    padding: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.atuacao h2 {
+    font-size: 64px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+
+.atuacao p {
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.botao2 {
+    background-color: #024033;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 24px;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+ margin-top: 40px;
+}
+.botao3{
+    background-color: #024033;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 24px;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    margin-top: 40px;
+  justify-content: center;
+}
+select {
+    
+    padding: 16px 20px;
+    border: 1 ;
+    width: 500px;
+
+}
+
+.botao2:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.divbotao2 {
+    text-align: end;
+    margin-top: 50px;
+    
+}
+.divbotao3 {
+    text-align: center;
+
+}
+.planos h2 {
+    font-size: 64px;
+    font-weight: 600;
+    text-align: end;
+    margin-right: 50px;
+    padding-top: 180px;
+
+}
+
+
+.contatos h2 {
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.contatos p {
+    font-size: 32px;
+    font-weight: 400;
+   text-align: center;
+    padding: 50px;
+}
+
+.infoplanos {
+    display: flex;
+    gap: 15px;
+   justify-content: center;
+    padding: 80px;
+    flex-wrap: wrap;
+}
+
+.caixa2 {
+    margin-top: 100px;
+    width: 405px;
+    padding: 48px;
+    height: 600px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 8px rgba(50, 50, 50, 0.071);
+ 
+    opacity: 0.8;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.caixa2 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 16px 0px;
+}
+
+.caixa2 p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.caixa2 h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.caixa2 h4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.dados{
+   text-align: end;
+   margin-top: 200px;
+   margin-right: 65px;
+
+
+}
+.caixaform{
+    width: 500px;
+    height: 30px;
+}
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    color: #ffffff;
+}
+.caixam{
+    margin-bottom: 15px;
+}
+.rodape a{
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+.listaf{
+    margin-bottom: 15px;
+}
+
+.rodape img{
+    margin-bottom: 15px;
+}
